@@ -1,0 +1,60 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fef8ff; /* 背景の薄いピンク */
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #ffe6fa;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+header {
+    top: 0;
+}
+
+footer {
+    bottom: 0;
+}
+
+.container {
+    display: flex;
+    margin-top: 60px; /* ヘッダーの高さ */
+    margin-bottom: 40px; /* フッターの高さ */
+}
+
+.sidebar-left, .sidebar-right {
+    width: 200px;
+    background-color: #e6f7ff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sidebar-left {
+    margin-right: 10px;
+}
+
+.sidebar-right {
+    margin-left: 10px;
+}
+
+main {
+    flex-grow: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    margin: 0;
+}
+
